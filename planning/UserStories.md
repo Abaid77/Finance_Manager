@@ -15,7 +15,7 @@ Dealer:
 Customer:
 
 1. Customer is greeted with a intro screen explaining the process.
-2. Customer is taken through the products, given a pitch and has the option to buy. The monthly or bi-weekly payment will adjust based on what the customer adds.
+2. Customer is taken through the products, given a pitch and has the option to buy. The monthly or bi-weekly payment will adjust based on what the customer adds. The products are:
 
 - Warranty (Given options for years/kms and coverage)
 - Vehicle protections:
