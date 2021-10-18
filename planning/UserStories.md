@@ -5,12 +5,13 @@ Dealer:
 3. Dealer can customize the price and name of products
 4. Dealer can setup a pitch for a customer by entering the following information:
 
-- Customers First Name
-- Customers Last Name
-- 2nd Customer First Name (Optional)
-- 2nd Customer Last Name (Optional)
-- The total amount to finance(price + fees + tax)
-- The Model of the vehicle being purchased
+- Customers First Name.
+- Customers Last Name.
+- 2nd Customer First Name (Optional).
+- 2nd Customer Last Name (Optional).
+- The total amount to finance(price + fees + tax).
+- The Model of the vehicle being purchased.
+- The interest rates and terms available.
 
 Customer:
 
