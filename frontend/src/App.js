@@ -1,12 +1,11 @@
 import "./App.css";
+import AppBar from "./components/AppBar";
 
 function App() {
   return (
     <>
+      <AppBar />
       <div className="App">Welcome to Finance Manager</div>
-      <div>Login</div>
-      <div>Username:</div>
-      <div>Password:</div>
     </>
   );
 }
