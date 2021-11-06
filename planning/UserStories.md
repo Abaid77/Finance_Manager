@@ -38,3 +38,7 @@ Customer:
 - Accessories for the vehicle (ie. paint pens, window visors).
 
 3. Customer gets a final confirmation screen displaying all the options selected and the final monthly or bi-weekly payment. Once customer confirms the options are saved and available for the dealer to print a confirmation form.
+
+https://www.figma.com/file/t13IdgWJ5GtNTFWVIyg46j/Customer's-Pitch-Page?node-id=1%3A2
+https://www.figma.com/file/3IsXaRtvwG3rn2ezuEZGhR/Dealer-Dashboard?node-id=2%3A2
+https://www.figma.com/file/LoLCxOxmDsvziw01hn0po2/Pitch---Display-Page
