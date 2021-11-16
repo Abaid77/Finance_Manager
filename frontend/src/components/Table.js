@@ -28,12 +28,12 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-function createData(name, calories, fat, carbs, protein) {
-  return { name, calories, fat, carbs, protein };
+function createData(name, pitchId, type, vehicle, status) {
+  return { name, pitchId, type, vehicle, status };
 }
 
 const rows = [
-  createData("Frozen yoghurt", 159, 6.0, 24, 4.0),
+  createData("John Smith", 1, "Cash", "2020 CX-5", "Pending"),
   createData("Ice cream sandwich", 237, 9.0, 37, 4.3),
   createData("Eclair", 262, 16.0, 24, 6.0),
   createData("Cupcake", 305, 3.7, 67, 4.3),
@@ -59,10 +59,10 @@ export default function MainTable() {
               <StyledTableCell component="th" scope="row">
                 {row.name}
               </StyledTableCell>
-              <StyledTableCell align="right">{row.calories}</StyledTableCell>
-              <StyledTableCell align="right">{row.fat}</StyledTableCell>
-              <StyledTableCell align="right">{row.carbs}</StyledTableCell>
-              <StyledTableCell align="right">{row.protein}</StyledTableCell>
+              <StyledTableCell align="right">{row.pitchId}</StyledTableCell>
+              <StyledTableCell align="right">{row.type}</StyledTableCell>
+              <StyledTableCell align="right">{row.vehicle}</StyledTableCell>
+              <StyledTableCell align="right">{row.status}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>
