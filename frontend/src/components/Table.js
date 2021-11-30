@@ -35,7 +35,7 @@ function createData(name, pitchId, type, vehicle, status) {
 const rows = [
   createData("John Smith", 1, "Cash", "2020 CX-5", "Pending"),
   createData("Jane Smith", 2, "Finance", "2020 CX-9", "Pending"),
-  createData("Eclair", 262, 16.0, 24, 6.0),
+  createData("Mark Messier", 3, "Finance", "2021 Mazda3", "Complete"),
   createData("Cupcake", 305, 3.7, 67, 4.3),
   createData("Gingerbread", 356, 16.0, 49, 3.9),
 ];
